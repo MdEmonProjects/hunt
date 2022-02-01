@@ -1,0 +1,531 @@
+@media (max-width: 575.98px) {
+    .universal_heading h3 {
+        font-size: 32px;
+    }
+    /* =========== Banner Part start =================== */
+    #banner {
+        clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 95%);
+    }
+    #banner .overly {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+    }
+    .banner_text h3 {
+        font-size: 44px;
+    }
+    .banner_text h4 {
+        font-size: 24px;
+    }
+    .banner_text p {
+        padding-bottom: 18px;
+    }
+    .banner_text .banner_buttons a {
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    /* =========== Banner Part End =================== */
+
+    /* =============== about part start ========== */
+    #about {
+        padding-top: 24px;
+    }
+    .aboutText h3 {
+        font-size: 32px;
+    }
+    .aboutText p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .itemOne::before, .itemTwo::before, .itemThree::before, .itemFour::before {
+        height: 14px;
+        width: 14px;
+        display: none;
+
+    }
+    .itemThree::before {
+        left: -44px;
+    }
+    .itemTwo::before {
+        right: -44px;
+    }
+    .itemOne::before {
+        bottom: -51px;
+    }
+    .itemTwo{
+        padding: 5px 20px 5px 5px;      
+
+    }
+    
+    .itemThree{
+        padding: 5px 5px 5px 20px;      
+    }
+    .aboutImage {
+        height: 100px;
+        width: 100px;
+        margin: 55px auto 0px auto;
+    }
+    
+    .aboutImage::before{
+        height: 120px;
+        width: 120px;
+    }
+    .sheap{
+        height: 18px;
+        width: 18px;
+        
+    }
+    .about_item h3 {
+        font-size: 14px;
+    }
+    .about_item p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+    .itemOne .sheap{
+        bottom: -9px;
+    }
+    .itemTwo .sheap{
+        right: -9px;
+    }
+    .itemThree .sheap{
+        left: -9px;
+    }
+    .itemFour .sheap{
+        top: -9px;
+    }
+    .itemTwo,.itemThree{
+        margin-top: 20px;
+    }
+    .itemFour{
+        margin-top: 20px;
+    }
+    /* =============== about part end ========== */
+
+
+    /* ============= Portfolio Part start ============ */
+    
+    #portfolio{
+        padding-top: 50px;
+        clip-path: polygon(0 5.5%, 100% 0, 100% 96%, 0% 100%) !important;
+
+    }
+    /* ============= Portfolio Part End ============ */
+    /* service part start */
+    #service {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .slider_item .service_title h3 {
+        font-size: 12px;
+    }
+    .service_icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .slick-slide.slick-center .service_icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .slider_item:hover .service_icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .service_p p {
+        font-size: 13px;
+    }
+    .service_details, .service_details2 {
+        padding: 35px 32px 25px 31px;
+    }
+    .service_details::after {
+        width: 28px;
+        height: 28px;
+        background: #f1f1f1;
+        left: -25px;
+    }
+    .service_slider_row::after{
+        opacity: 0;
+        visibility: hidden;
+    }
+    /* service part End */
+
+
+    /* mentors part start */
+    #mentors_part {
+        clip-path: polygon(0 7.5%, 100% 30px, 100% 92.5%, 0% 96%);
+    }
+    .mentor_all::after{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 5px;
+    }
+
+    .mentor_all i.up2 {
+        top: 50%;
+        left: -17px;
+        transform: rotate(266deg);
+    }
+    .mentor_all i.down2 {
+        top: 50%;
+        right: 0;
+        /* bottom: 0; */
+        left: 99%;
+        transform: rotate(266deg);
+    }
+    .mentor_all i {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .mentors_details .sheap {
+        background: #f1f1f1;
+        top: -9px;
+        left: 50%;
+        transform: translateX(-50%)rotate(45deg);
+    }
+    .mentor_details_item {
+        margin-left: 36px;
+        margin-top: 22px;
+    }
+    .mentors_details p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .mentors_details h3 {
+        font-size: 18px;
+    }
+    .mentors_details {
+        padding: 30px 20px 20px 20px;
+    }
+    /* mentors part End */
+
+    /* price plan start */
+    
+    .pricing_card .body p {
+        line-height: 32px;
+    }
+    .pricing_card .header {
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    
+    /* price plan End */
+
+    /* progress_counter part start */
+    #progress_counter {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #progress_counter .counter p {
+        font-size: 18px;
+    }
+    #progress_counter .counter h3 {
+        font-size: 24px;
+    }
+    #progress_counter .counter {
+        height: 100px;
+    }
+    #progress_counter .counter::before {
+        height: 95px;
+    }
+    /* progress_counter part End */
+
+    /* supporters part start */
+    #supporters {
+        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
+    }
+    /* supporters part End */
+
+    /* contact part start */
+    #contact::before {
+        height: 107.5%;
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .custom-br{
+        border: 0px;
+    }
+    /* contact part End */
+
+    
+    
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* =========== Banner Part start =================== */
+    #banner {
+        clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 95%);
+    }
+    #banner .overly {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+    }
+    /* =========== Banner Part End =================== */
+    /* =============== about part start ========== */
+    #about {
+        padding-top: 24px;
+    }
+    .aboutText h3 {
+        font-size: 32px;
+    }
+    .aboutText p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .itemOne::before, .itemTwo::before, .itemThree::before, .itemFour::before {
+        height: 14px;
+        width: 14px;
+
+    }
+    .itemThree::before {
+        left: -50px;
+    }
+    .itemTwo::before {
+        right: -50px;
+    }
+    .itemOne::before {
+        bottom: -51px;
+    }
+    .itemFour::before {
+        top: -40px;
+    }
+    .itemTwo{
+        padding: 5px 20px 5px 5px;      
+
+    }
+
+    .itemThree{
+        padding: 5px 5px 5px 20px;      
+    }
+    .aboutImage {
+        height: 100px;
+        width: 100px;
+        margin: 55px auto 0px auto;
+    }
+
+    .aboutImage::before{
+        height: 120px;
+        width: 120px;
+    }
+    .sheap{
+        height: 18px;
+        width: 18px;
+        
+    }
+    .about_item h3 {
+        font-size: 14px;
+    }
+    .about_item p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .itemOne .sheap{
+        bottom: -9px;
+    }
+    .itemTwo .sheap{
+        right: -9px;
+    }
+    .itemThree .sheap{
+        left: -9px;
+    }
+    .itemFour .sheap{
+        top: -9px;
+    }
+    .itemTwo,.itemThree{
+        margin-top: 20px;
+    }
+    .itemFour{
+        margin-top: 20px;
+    }
+    /* =============== about part end ========== */
+
+
+
+    /* service part start */
+    #service {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    
+    .service_icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .slick-slide.slick-center .service_icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .slider_item:hover .service_icon {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    
+    .service_details::after {
+        width: 28px;
+        height: 28px;
+        background: #f1f1f1;
+        left: -25px;
+    }
+    .service_slider_row::after{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /* service part End */
+    #portfolio {
+        padding-top: 50px;
+        clip-path: polygon(0 5.5%, 100% 4%, 100% 94.5%, 0% 96%);
+    }
+    #mentors_part {
+        clip-path: polygon(0 7.5%, 100% 30px, 100% 92.5%, 0% 96%);
+    }
+    .mentor_all::after{
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 5px;
+    }
+    .mentors_details .sheap {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .mentor_all i.down2 {
+        z-index: 999;
+    }
+    /* progress_counter part start */
+    #progress_counter {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+    #progress_counter .counter p {
+        font-size: 18px;
+    }
+    #progress_counter .counter h3 {
+        font-size: 24px;
+    }
+    #progress_counter .counter {
+        height: 100px;
+    }
+    #progress_counter .counter::before {
+        height: 95px;
+    }
+    /* progress_counter part End */
+    /* supporters part start */
+    #supporters {
+        clip-path: polygon(0 8%, 100% 0, 100% 92%, 0% 100%);
+    }
+    /* supporters part End */
+    /* contact part start */
+    #contact::before {
+        height: 107.5%;
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .custom-br{
+        border: 0px;
+    }
+    /* contact part End */
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    /* =========== Banner Part start =================== */
+    #banner {
+        clip-path: polygon(0 0%, 100% 0%, 100% 88%, 0% 95%);
+    }
+    #banner .overly {
+        padding-top: 150px;
+        padding-bottom: 100px;
+
+    }
+    /* =========== Banner Part End =================== */
+    .aboutImage::before {
+        height: 200px;
+        width: 200px;
+    }
+    .aboutImage {
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin: 128px auto 0 auto;
+    }
+    /* .about_item {
+        margin-top: 28px;
+    } */
+    .itemTwo, .itemThree {
+        margin-top: 38px;
+    }
+    .itemOne::before, .itemTwo::before, .itemThree::before, .itemFour::before {
+        height: 16px;
+        width: 16px;
+    }
+    .itemThree::before {
+        left: -40px;
+    }
+    .itemTwo::before {
+        right: -40px;
+    }
+    .itemOne::before {
+        bottom: -125px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .itemFour::before {
+        top: -148px;
+    }
+    .mentors_details .sheap {
+       opacity: 0;
+       visibility: hidden;
+    }
+    .mentors_details {
+        padding: 20px 30px 26px 23px;
+    }
+    .mentor_all i.down2 {
+        z-index: 999;
+    }
+}
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .aboutImage {
+        height: 250px;
+        width: 250px;
+        margin: 112px auto 0 auto;
+
+    }
+    .aboutImage::before {
+        height: 270px;
+        width: 270px;
+    }
+    .itemThree::before {
+        left: -47px;
+    }
+    .itemTwo::before {
+        right: -47px;
+    }
+    .itemFour::before {
+        top: -69px;
+    }
+    .itemOne::before {
+        bottom: -111px;
+    }
+}
+@media (min-width: 1199.98px) and (max-width: 1399.98px){
+    .itemThree::before {
+        left: -76px;
+    }
+    .itemTwo::before {
+        right: -79px;
+    }
+}
+@media (min-width: 992px){
+    .col-lg-20 {
+        flex: 0 0 auto;
+        width: 19.999999%;
+    }
+
+}
